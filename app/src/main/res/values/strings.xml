@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DemoTotalGame</string>
+    <string name="pong_game">Pong Game</string>
+</resources>
