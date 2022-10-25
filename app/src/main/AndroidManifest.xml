@@ -10,7 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DemoTotalGame">
         <activity android:name=".PongActivity"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".GameActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:screenOrientation="landscape"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
